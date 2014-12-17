@@ -15,6 +15,11 @@
 		CF836B621A42482800704A2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF836B611A42482800704A2C /* Images.xcassets */; };
 		CF836B651A42482800704A2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF836B631A42482800704A2C /* LaunchScreen.xib */; };
 		CF836B711A42482800704A2C /* UserDataChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF836B701A42482800704A2C /* UserDataChallengeSolutionTests.m */; };
+		CF836B7D1A42484F00704A2C /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = CF836B7C1A42484F00704A2C /* UserData.m */; };
+		CF836B821A424A8900704A2C /* person1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF836B7E1A424A8900704A2C /* person1.jpg */; };
+		CF836B831A424A8900704A2C /* person2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF836B7F1A424A8900704A2C /* person2.jpg */; };
+		CF836B841A424A8900704A2C /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF836B801A424A8900704A2C /* person3.jpg */; };
+		CF836B851A424A8900704A2C /* person4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF836B811A424A8900704A2C /* person4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,12 @@
 		CF836B6A1A42482800704A2C /* UserDataChallengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserDataChallengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF836B6F1A42482800704A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF836B701A42482800704A2C /* UserDataChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDataChallengeSolutionTests.m; sourceTree = "<group>"; };
+		CF836B7B1A42484F00704A2C /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		CF836B7C1A42484F00704A2C /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		CF836B7E1A424A8900704A2C /* person1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpg; sourceTree = "<group>"; };
+		CF836B7F1A424A8900704A2C /* person2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpg; sourceTree = "<group>"; };
+		CF836B801A424A8900704A2C /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		CF836B811A424A8900704A2C /* person4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,7 @@
 		CF836B501A42482800704A2C /* UserDataChallengeSolution */ = {
 			isa = PBXGroup;
 			children = (
+				CF836B7A1A42483200704A2C /* model */,
 				CF836B551A42482800704A2C /* AppDelegate.h */,
 				CF836B561A42482800704A2C /* AppDelegate.m */,
 				CF836B5B1A42482800704A2C /* ViewController.h */,
@@ -99,6 +111,10 @@
 		CF836B511A42482800704A2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF836B7E1A424A8900704A2C /* person1.jpg */,
+				CF836B7F1A424A8900704A2C /* person2.jpg */,
+				CF836B801A424A8900704A2C /* person3.jpg */,
+				CF836B811A424A8900704A2C /* person4.jpg */,
 				CF836B521A42482800704A2C /* Info.plist */,
 				CF836B531A42482800704A2C /* main.m */,
 			);
@@ -120,6 +136,15 @@
 				CF836B6F1A42482800704A2C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF836B7A1A42483200704A2C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CF836B7B1A42484F00704A2C /* UserData.h */,
+				CF836B7C1A42484F00704A2C /* UserData.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +227,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF836B841A424A8900704A2C /* person3.jpg in Resources */,
+				CF836B831A424A8900704A2C /* person2.jpg in Resources */,
 				CF836B601A42482800704A2C /* Main.storyboard in Resources */,
 				CF836B651A42482800704A2C /* LaunchScreen.xib in Resources */,
+				CF836B851A424A8900704A2C /* person4.jpg in Resources */,
+				CF836B821A424A8900704A2C /* person1.jpg in Resources */,
 				CF836B621A42482800704A2C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +254,7 @@
 				CF836B5A1A42482800704A2C /* UserDataChallengeSolution.xcdatamodeld in Sources */,
 				CF836B571A42482800704A2C /* AppDelegate.m in Sources */,
 				CF836B5D1A42482800704A2C /* ViewController.m in Sources */,
+				CF836B7D1A42484F00704A2C /* UserData.m in Sources */,
 				CF836B541A42482800704A2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,9 +377,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UserDataChallengeSolution/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -357,9 +389,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UserDataChallengeSolution/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +450,7 @@
 				CF836B761A42482800704A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF836B771A42482800704A2C /* Build configuration list for PBXNativeTarget "UserDataChallengeSolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +459,7 @@
 				CF836B791A42482800704A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
